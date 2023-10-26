@@ -1,0 +1,327 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+html{
+    font-size:10px;
+}
+body{
+    min-width: 100vw;
+    min-height: 100vh;
+    font-family: 'Space Mono', monospace;
+    display: flex;
+    padding-top: 50px;
+    flex-direction: column;
+    align-items: center;
+    background: #C5E4E7;
+}
+.image{
+margin-bottom: 40px;
+}
+.whole{
+width: 375px;
+height: 789px;
+border-radius: 25px 25px 0px 0px;
+background: #FFF;
+box-shadow: 0px 32px 43px 0px rgba(79, 166, 175, 0.20);
+}
+.bill{
+color: #5E7A7D;
+font-size: 1.6rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 32px;
+margin-left: 32px
+}
+.bill-input{
+width: 300px;
+height: 48px;
+border-radius: 5px;
+background: #F3F9FA;
+border: none;
+margin-top: 6px;
+margin-left: 32px;
+}
+.numberInput{
+width:100%;
+height:100%;
+border: none;
+border-radius: 5px;
+background: #F3F9FA;
+text-align:right;
+font-family: Space Mono;
+font-size: 2.4rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-left: -136px;
+padding-right: 15px;
+position: relative;
+}
+.dollar{
+margin-left: 19px;
+position: absolute;
+margin-top: -32px;
+}
+.bill-input .numberInput::-webkit-inner-spin-button,
+.bill-input .numberInput::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.select-tip{
+color: #5E7A7D;
+font-size: 1.6rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 32px;
+margin-left: 32px
+}
+.tip{
+width: 146px;
+height: 48px;
+border-radius: 5px;
+background: #00474B;
+color: #FFF;
+font-family: Space Mono;
+font-size: 2.4rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+border:none;
+margin-top: 16px;
+}
+.group{
+margin-left:32px;
+}
+.same{
+margin-left:16px;
+}
+.custom{
+width: 146px;
+height: 48px;
+border-radius: 5px;
+background: #F3F9FA;
+border:none;
+color: #547878;
+text-align: center;
+font-size: 2.4rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+font-family: 'Space Mono';
+
+}
+.custom::-webkit-inner-spin-button,
+.custom::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.people{
+color: #5E7A7D;
+font-size: 1.6rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: 38px;
+margin-left:32px;
+}
+.people-input{
+width: 300px;
+height: 48px;
+border-radius: 5px;
+background: #F3F9FA;
+border: none;
+margin-top: 6px;
+margin-left: 32px;
+}
+.inputForPeople{
+width:100%;
+height:100%;
+border: none;
+border-radius: 5px;
+background: #F3F9FA;
+text-align:right;
+font-family: Space Mono;
+font-size: 2.4rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-right: 15px;
+position: relative;
+}
+.person{
+    margin-left: 19px;
+    position: absolute;
+    margin-top: -32px;
+}
+.people-input .inputForPeople::-webkit-inner-spin-button,
+.people-input .inputForPeople::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.error{
+display: none;
+color: #E17457;
+font-size: 1.6rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+position: absolute;
+margin-top: -23px;
+    margin-left: 223px
+}
+.last-part{
+    width: 327px;
+    height: 257px;
+    border-radius: 15px;
+    background: #00474B;
+    margin-top: 32px;
+    margin-left: 24px
+}
+.last-part p{
+color: #FFF;
+font-size: 1.6rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding-left:24px;
+}
+.tip-amount{
+    padding-top:39px;
+}
+.total-amount{
+    margin-top: -30px;
+}
+p span{
+    color: #7F9D9F;
+    font-size:1.3rem;
+}
+.number{
+    color: #26C2AE;
+    text-align: right;
+    font-size: 3.2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.667px;
+    transform: translate(-20px, -52px);
+}
+.btn{
+width: 281px;
+height: 48px;
+border-radius: 5px;
+background: #26C2AE;
+border:none;
+color: #00474B;
+text-align: center;
+font-family: Space Mono;
+font-size: 2rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top: -18px;
+margin-left: 22px;
+}
+
+@media(min-width:1440px){
+    .whole{
+    width: 920px;
+    height: 481px;
+    border-radius: 25px;
+     position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+    }
+    .image{
+        margin-top: 130px;
+    }
+    .bill{
+        margin-top:45px;
+        margin-left:48px;
+    }
+    .bill-input{
+        width: 379px;
+        margin-left:48px;
+    }
+    .select-tip{
+        margin-top:40px;
+        margin-left: 48px;
+    }
+    .buttons{
+width:117px;
+    }
+    .smallest{
+     margin-left: 48px;  
+    }
+    .smaller{
+        margin-left:12px;
+    }
+    .big{
+        margin-left: 12px;
+    }
+    .bigger{
+        transform: translate(-409px, 68px);
+    }
+    .biggest{
+        transform: translate(-430px, 67px);
+    }
+    .custom{
+        width:117px;
+        transform: translate(-435px, 69px);
+    }
+    .people{
+    margin-top: 108px;
+    margin-left: 48px
+    }
+    .people-input{
+        margin-left: 48px; 
+        width:370px;
+    }
+    .error{
+    margin-top: -23px;
+    margin-left: 307px
+    }
+    .last-part{
+    width: 413px;
+    height: 417px;
+    margin-top: -405px;
+    margin-left: 474px;
+    }
+    .tip-amount{
+    padding-top: 56px;
+    padding-left: 40px
+    }
+    .total-amount{
+        padding-top: 33px;
+    }
+    .number{
+        font-size:4.8rem;
+        letter-spacing: -1px;
+        transform: translate(-40px, -65px);
+    }
+    .btn{
+        width: 333px;
+        height: 48px;
+        background: #26C2AE;
+         margin: 40px;
+    }
+}
+.numberInput:hover {
+cursor:pointer;
+ outline: 2px solid #26C2AE;
+}
+    
+.custom:hover{
+cursor: pointer;
+outline: 2px solid #26C2AE;
+background: #F3F9FA;
+}
+.btn:hover{
+cursor: pointer;
+background: #9FE8DF;
+}
+.tip:hover{
+cursor: pointer;
+background: #9FE8DF;
+}
